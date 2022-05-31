@@ -52,13 +52,13 @@ datadrivencv::build_network_logo(CV$entries_data)
 ```
 
 
-<!-- ```{r} -->
-<!-- if(params$pdf_mode){ -->
-<!--   cat("View this CV online at _https://github.com/bsrose25/Rose-cv/cv.html") -->
-<!-- } else { -->
-<!--   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/bsrose25/Rose-cv/cv.pdf)") -->
-<!-- } -->
-<!-- ``` -->
+```{r}
+if(params$pdf_mode){
+  cat("View this CV online at _https://github.com/bsrose25/Rose-cv/cv.html")
+} else {
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/bsrose25/Rose-cv/cv.pdf)")
+}
+```
 
 Contact {#contact}
 --------------------------------------------------------------------------------
